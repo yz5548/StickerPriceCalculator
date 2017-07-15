@@ -1,0 +1,9 @@
+C:\Users\rex\Desktop\StickerPriceCalculator.WebAPI\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.dll
+C:\Users\rex\Desktop\StickerPriceCalculator.WebAPI\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.pdb
+C:\Users\rex\Desktop\StickerPriceCalculator.WebAPI\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.csprojResolveAssemblyReference.cache
+C:\Users\rex\Desktop\StickerPriceCalculator.WebAPI\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.dll
+C:\Users\rex\Desktop\StickerPriceCalculator.WebAPI\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.pdb
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.dll
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.pdb
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.dll
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.pdb
