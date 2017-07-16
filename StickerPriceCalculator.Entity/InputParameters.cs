@@ -16,9 +16,9 @@ namespace StickerPriceCalculator.Entity
             MinimalAcceptableGrowthRate = _MinimalAcceptableGrowthRate;
         }
 
-        decimal StartEarningPerShare { get; set; }
+        public decimal StartEarningPerShare { get; set; }
 
-        decimal EarningPerShaereTrailingTwelveMonths { get; set; }
+        public decimal EarningPerShaereTrailingTwelveMonths { get; set; }
 
 
         /// <summary>
@@ -37,14 +37,14 @@ namespace StickerPriceCalculator.Entity
             }
         }
 
-        
-        double minimalAcceptableGrowthRate = 0.15;
+
+        public double minimalAcceptableGrowthRate = 0.15;
 
 
         /// <summary>
         /// 举例: 初始EPS在2014年, EPSTTM在2016年;即，共包括：2014，2015，2016三年，IntervalYears = 3
         /// </summary>
-        int IntervalYears { get; set; }
+        public int IntervalYears { get; set; }
 
     }
 }

@@ -9,13 +9,13 @@ namespace StickerPriceCalculator.Entity
 
     public class IntermediateVariable
     {
-        decimal FutureEarningPerShare { get; set; }
+        public decimal FutureEarningPerShare { get; set; }
 
-        decimal FutureStockPrice { get; set; }
+        public decimal FutureStockPrice { get; set; }
 
-        double FuturePE { get; set; }
+        public double FuturePE { get; set; }
 
-        double FutureGrowthRate { get; set; }
+        public double FutureGrowthRate { get; set; }
     }
 
 }

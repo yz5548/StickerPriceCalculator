@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="StickerPriceCalculator.Entity">
       <HintPath>..\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.dll</HintPath>
     </Reference>

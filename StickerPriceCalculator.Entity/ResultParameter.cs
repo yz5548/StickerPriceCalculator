@@ -8,10 +8,34 @@ namespace StickerPriceCalculator.Entity
 {
     public class ResultParameters
     {
-        decimal StickerPrice { get; set; }
-        decimal MarginOfSafety { get; set; }
+        private decimal stickerPrice;// { get; set; }
+        private decimal marginOfSafety;// { get; set; }
 
+        public decimal StickerPrice
+        {
+            get
+            {
+                return Math.Round(stickerPrice,2);
+            }
 
+            set
+            {
+                stickerPrice = value;
+            }
+        }
+
+        public decimal MarginOfSafety
+        {
+            get
+            {
+                return Math.Round( marginOfSafety,2);
+            }
+
+            set
+            {
+                marginOfSafety = value;
+            }
+        }
     }
 
     
