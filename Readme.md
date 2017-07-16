@@ -10,3 +10,6 @@ Given enough parameter, including
             double MinimalAcceptableGrowthRate = 0.15;// that means MinimalAcceptableGrowthRate=15%;
             
 Then, you can get sticker price and margin of safety using this webapi
+
+TestAPI:
+http://218.244.141.45:20178/api/StickerPriceCalculator/CalculateStockPrice/?StartEarningPerShare=-1.36&EarningPerShareTTM=2.16&IntervalYears=3

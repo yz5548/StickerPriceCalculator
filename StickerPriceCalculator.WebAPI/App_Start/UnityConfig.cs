@@ -15,7 +15,7 @@ namespace StickerPriceCalculator.WebAPI
             // it is NOT necessary to register your controllers
 
             // e.g. container.RegisterType<ITestService, TestService>();
-            container.RegisterType<IStickerPriceCalculator, StickPriceCalculator.BLL.StickPriceCalculator>();
+            container.RegisterType<IStickerPriceCalculator, StickPriceCalculator.BLL.StickPriceCalculator>(new HierarchicalLifetimeManager());
             
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }

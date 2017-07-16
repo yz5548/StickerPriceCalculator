@@ -18,6 +18,20 @@ namespace StickerPriceCalculator.WebAPI.Controllers
             _stickerPriceCalculator = stickerPriceCalculator;
         }
 
+        public StickerPriceCalculatorController()
+        {
+            _stickerPriceCalculator = new StickPriceCalculator.BLL.StickPriceCalculator();
+        }
+
+        /// <summary>
+        /// http://localhost/StickerPriceCalculator.WebAPI/api/StickerPriceCalculator/CalculateStockPrice/?StartEarningPerShare=-1.36&EarningPerShareTTM=2.16&IntervalYears=3
+        /// </summary>
+        /// <param name="StartEarningPerShare"></param>
+        /// <param name="EarningPerShareTTM"></param>
+        /// <param name="IntervalYears"></param>
+        /// <param name="MinimalAcceptableGrowthRate"></param>
+        /// <returns></returns>
+        [HttpGet]
         public ResultParameters CalculateStockPrice(decimal StartEarningPerShare, decimal EarningPerShareTTM, int IntervalYears, double MinimalAcceptableGrowthRate = 0.15)
         {
             InputParameters inputParameters = new InputParameters(StartEarningPerShare, EarningPerShareTTM, IntervalYears, MinimalAcceptableGrowthRate);

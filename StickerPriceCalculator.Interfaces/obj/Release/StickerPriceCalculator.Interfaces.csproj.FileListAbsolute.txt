@@ -1,0 +1,7 @@
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Interfaces\bin\Release\StickerPriceCalculator.Interfaces.dll
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Interfaces\bin\Release\StickerPriceCalculator.Interfaces.pdb
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Interfaces\bin\Release\StickerPriceCalculator.Entity.dll
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Interfaces\bin\Release\StickerPriceCalculator.Entity.pdb
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Interfaces\obj\Release\StickerPriceCalculator.Interfaces.csprojResolveAssemblyReference.cache
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Interfaces\obj\Release\StickerPriceCalculator.Interfaces.dll
+F:\Git\StickerPriceCalculator\StickerPriceCalculator.Interfaces\obj\Release\StickerPriceCalculator.Interfaces.pdb
