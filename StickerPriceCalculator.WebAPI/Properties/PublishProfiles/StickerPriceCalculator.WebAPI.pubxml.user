@@ -10,10 +10,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>07/15/2017 22:16:49</publishTime>
+      <publishTime>07/15/2017 22:58:47</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>07/15/2017 22:16:49</publishTime>
+      <publishTime>07/15/2017 22:58:46</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>06/15/2015 03:06:24</publishTime>
@@ -70,16 +70,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/18/2015 21:19:46</publishTime>
     </File>
     <File Include="bin/StickerPriceCalculator.Entity.dll">
-      <publishTime>07/15/2017 22:09:09</publishTime>
+      <publishTime>07/15/2017 22:56:26</publishTime>
     </File>
     <File Include="bin/StickerPriceCalculator.Interfaces.dll">
-      <publishTime>07/15/2017 22:16:38</publishTime>
+      <publishTime>07/15/2017 22:58:34</publishTime>
     </File>
     <File Include="bin/StickerPriceCalculator.WebAPI.dll">
-      <publishTime>07/15/2017 22:16:42</publishTime>
+      <publishTime>07/15/2017 22:58:39</publishTime>
     </File>
     <File Include="bin/StickPriceCalculator.BLL.dll">
-      <publishTime>07/15/2017 21:10:58</publishTime>
+      <publishTime>07/15/2017 22:45:14</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>01/28/2015 04:02:42</publishTime>
@@ -94,10 +94,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/29/2015 01:52:30</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>07/15/2017 16:38:11</publishTime>
+      <publishTime>07/15/2017 22:44:57</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>07/15/2017 22:16:43</publishTime>
+      <publishTime>07/15/2017 22:58:40</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>07/15/2017 21:30:16</publishTime>

@@ -13,3 +13,9 @@ Then, you can get sticker price and margin of safety using this webapi
 
 TestAPI:
 http://218.244.141.45:20178/api/StickerPriceCalculator/CalculateStockPrice/?StartEarningPerShare=-1.36&EarningPerShareTTM=2.16&IntervalYears=3
+
+Parameter Tutorial:
+            decimal startEPS = -1.36m;                  // for example, RH has EPS=-1.36 in 2013
+            decimal EPSTTM = 2.16m;                     // for example , RH has EPS = 2.16 in 2016
+            int years = 3;                              //2013,2014,2015,2016 , that's N(4) - 1 = 3 years.
+            double MinimalAcceptableGrowthRate = 0.15;  // that means MinimalAcceptableGrowthRate=15%;  Optional Parameter

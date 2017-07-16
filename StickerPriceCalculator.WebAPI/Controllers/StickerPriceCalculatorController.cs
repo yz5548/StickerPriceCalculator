@@ -11,7 +11,7 @@ namespace StickerPriceCalculator.WebAPI.Controllers
 {
     public class StickerPriceCalculatorController : ApiController
     {
-        private IStickerPriceCalculator _stickerPriceCalculator;
+        private readonly IStickerPriceCalculator _stickerPriceCalculator;
 
         public StickerPriceCalculatorController(IStickerPriceCalculator stickerPriceCalculator)
         {
