@@ -18,10 +18,7 @@ namespace StickerPriceCalculator.WebAPI.Controllers
             _stickerPriceCalculator = stickerPriceCalculator;
         }
 
-        public StickerPriceCalculatorController()
-        {
-            _stickerPriceCalculator = new StickPriceCalculator.BLL.StickPriceCalculator();
-        }
+   
 
         /// <summary>
         /// http://localhost/StickerPriceCalculator.WebAPI/api/StickerPriceCalculator/CalculateStockPrice/?StartEarningPerShare=-1.36&EarningPerShareTTM=2.16&IntervalYears=3

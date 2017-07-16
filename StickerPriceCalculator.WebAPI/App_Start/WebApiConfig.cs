@@ -19,6 +19,9 @@ namespace StickerPriceCalculator.WebAPI
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            //Important: connect GlobalConfiguration.Configuration.DependencyResolver  with container
+            UnityConfig.RegisterComponents();
         }
     }
 }

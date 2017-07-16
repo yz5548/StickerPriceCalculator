@@ -16,7 +16,9 @@ namespace StickerPriceCalculator.WebAPI
 
             // e.g. container.RegisterType<ITestService, TestService>();
             container.RegisterType<IStickerPriceCalculator, StickPriceCalculator.BLL.StickPriceCalculator>(new HierarchicalLifetimeManager());
-            
+
+            //config.DependencyResolver = new UnityResolver(container);
+ 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }
     }
