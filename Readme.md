@@ -11,8 +11,13 @@ Given enough parameter, including
             
 Then, you can get sticker price and margin of safety using this webapi
 
+
+
 TestAPI:
+//JSON
 http://218.244.141.45:20178/api/StickerPriceCalculator/CalculateStockPrice/?StartEarningPerShare=-1.36&EarningPerShareTTM=2.16&IntervalYears=3
+
+
 
 Parameter Tutorial:
             decimal startEPS = -1.36m;                  // for example, RH has EPS=-1.36 in 2013

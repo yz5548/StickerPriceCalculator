@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Formatting;
 using System.Web.Http;
 
 namespace StickerPriceCalculator.WebAPI
@@ -22,6 +23,11 @@ namespace StickerPriceCalculator.WebAPI
 
             //Important: connect GlobalConfiguration.Configuration.DependencyResolver  with container
             UnityConfig.RegisterComponents();
+
+            var jsonFormatter = new JsonMediaTypeFormatter();
+            //optional: set serializer settings here
+            config.Services.Replace(typeof(IContentNegotiator), new JsonContentNegotiator(jsonFormatter));
         }
     }
+
 }

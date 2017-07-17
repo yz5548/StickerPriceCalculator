@@ -7,3 +7,7 @@ F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Debug\StickerPri
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.pdb
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.dll
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Debug\StickerPriceCalculator.Entity.pdb
