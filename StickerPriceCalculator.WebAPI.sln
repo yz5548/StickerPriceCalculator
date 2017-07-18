@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickerPriceCalculator.WebAPI", "StickerPriceCalculator.WebAPI\StickerPriceCalculator.WebAPI.csproj", "{C561227F-74BA-4641-B2E6-726B786CA143}"
-	ProjectSection(ProjectDependencies) = postProject
-		{D08BB50B-2F1D-41A7-9B28-8A1A5FD187D4} = {D08BB50B-2F1D-41A7-9B28-8A1A5FD187D4}
-		{B77FAEC8-5265-4E1F-B691-73C70231622E} = {B77FAEC8-5265-4E1F-B691-73C70231622E}
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickerPriceCalculator.Entity", "StickerPriceCalculator.Entity\StickerPriceCalculator.Entity.csproj", "{B77FAEC8-5265-4E1F-B691-73C70231622E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickerPriceCalculator.BLL", "StickerPriceCalculator.BLL\StickerPriceCalculator.BLL.csproj", "{D08BB50B-2F1D-41A7-9B28-8A1A5FD187D4}"
@@ -22,6 +16,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickerPriceCalculator.Inte
 		{B77FAEC8-5265-4E1F-B691-73C70231622E} = {B77FAEC8-5265-4E1F-B691-73C70231622E}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickerPriceCalculator.WebAPI", "StickerPriceCalculator.WebAPI\StickerPriceCalculator.WebAPI.csproj", "{10E93808-4DB3-482D-8F6B-5E3CC4746E94}"
+	ProjectSection(ProjectDependencies) = postProject
+		{770EF508-6232-411D-AB93-D267A3934B84} = {770EF508-6232-411D-AB93-D267A3934B84}
+		{D08BB50B-2F1D-41A7-9B28-8A1A5FD187D4} = {D08BB50B-2F1D-41A7-9B28-8A1A5FD187D4}
+		{B77FAEC8-5265-4E1F-B691-73C70231622E} = {B77FAEC8-5265-4E1F-B691-73C70231622E}
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickerPriceCalculator.Test", "StickerPriceCalculator.Test\StickerPriceCalculator.Test.csproj", "{1E662C30-EBB1-4108-BF7F-AD08A314A918}"
 EndProject
 Global
@@ -30,10 +31,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C561227F-74BA-4641-B2E6-726B786CA143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C561227F-74BA-4641-B2E6-726B786CA143}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C561227F-74BA-4641-B2E6-726B786CA143}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C561227F-74BA-4641-B2E6-726B786CA143}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B77FAEC8-5265-4E1F-B691-73C70231622E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B77FAEC8-5265-4E1F-B691-73C70231622E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B77FAEC8-5265-4E1F-B691-73C70231622E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,6 +43,10 @@ Global
 		{770EF508-6232-411D-AB93-D267A3934B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{770EF508-6232-411D-AB93-D267A3934B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{770EF508-6232-411D-AB93-D267A3934B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E93808-4DB3-482D-8F6B-5E3CC4746E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E93808-4DB3-482D-8F6B-5E3CC4746E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E93808-4DB3-482D-8F6B-5E3CC4746E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E93808-4DB3-482D-8F6B-5E3CC4746E94}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E662C30-EBB1-4108-BF7F-AD08A314A918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E662C30-EBB1-4108-BF7F-AD08A314A918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E662C30-EBB1-4108-BF7F-AD08A314A918}.Release|Any CPU.ActiveCfg = Release|Any CPU

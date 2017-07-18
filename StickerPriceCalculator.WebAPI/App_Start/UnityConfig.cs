@@ -3,6 +3,7 @@ using StickerPriceCalculator.Interfaces;
 using System.Web.Http;
 using Unity.WebApi;
 
+
 namespace StickerPriceCalculator.WebAPI
 {
     public static class UnityConfig
@@ -15,10 +16,8 @@ namespace StickerPriceCalculator.WebAPI
             // it is NOT necessary to register your controllers
 
             // e.g. container.RegisterType<ITestService, TestService>();
-            container.RegisterType<IStickerPriceCalculator, StickPriceCalculator.BLL.StickPriceCalculator>(new HierarchicalLifetimeManager());
-
-            //config.DependencyResolver = new UnityResolver(container);
- 
+            container.RegisterType<IStickerPriceCalculator, StickerPriceCalculator.BLL.StickerPriceCalculator>();
+            
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }
     }

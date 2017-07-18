@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>StickerPriceCalculator.Test</RootNamespace>
     <AssemblyName>StickerPriceCalculator.Test</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -16,6 +16,7 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,8 +40,11 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="StickPriceCalculator.BLL">
-      <HintPath>..\StickerPriceCalculator.BLL\bin\Debug\StickPriceCalculator.BLL.dll</HintPath>
+    <Reference Include="StickerPriceCalculator.Entity">
+      <HintPath>..\StickerPriceCalculator.Entity\bin\Debug\StickerPriceCalculator.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="StickerPriceCalculator.Interfaces">
+      <HintPath>..\StickerPriceCalculator.Interfaces\bin\Debug\StickerPriceCalculator.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Net.Http" />
@@ -77,16 +81,8 @@
       <Project>{D08BB50B-2F1D-41A7-9B28-8A1A5FD187D4}</Project>
       <Name>StickerPriceCalculator.BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\StickerPriceCalculator.Entity\StickerPriceCalculator.Entity.csproj">
-      <Project>{B77FAEC8-5265-4E1F-B691-73C70231622E}</Project>
-      <Name>StickerPriceCalculator.Entity</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\StickerPriceCalculator.Interfaces\StickerPriceCalculator.Interfaces.csproj">
-      <Project>{770EF508-6232-411D-AB93-D267A3934B84}</Project>
-      <Name>StickerPriceCalculator.Interfaces</Name>
-    </ProjectReference>
     <ProjectReference Include="..\StickerPriceCalculator.WebAPI\StickerPriceCalculator.WebAPI.csproj">
-      <Project>{C561227F-74BA-4641-B2E6-726B786CA143}</Project>
+      <Project>{10E93808-4DB3-482D-8F6B-5E3CC4746E94}</Project>
       <Name>StickerPriceCalculator.WebAPI</Name>
     </ProjectReference>
   </ItemGroup>

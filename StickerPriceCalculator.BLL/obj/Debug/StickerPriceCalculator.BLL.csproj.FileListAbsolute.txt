@@ -9,12 +9,12 @@ F:\Git\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceC
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.Interfaces.dll
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.Entity.pdb
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.Interfaces.pdb
-E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickPriceCalculator.BLL.dll
-E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickPriceCalculator.BLL.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.BLL.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.BLL.pdb
 E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.Entity.dll
 E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.Interfaces.dll
 E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.Entity.pdb
 E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Debug\StickerPriceCalculator.Interfaces.pdb
 E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Debug\StickerPriceCalculator.BLL.csprojResolveAssemblyReference.cache
-E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Debug\StickPriceCalculator.BLL.dll
-E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Debug\StickPriceCalculator.BLL.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Debug\StickerPriceCalculator.BLL.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Debug\StickerPriceCalculator.BLL.pdb

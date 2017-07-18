@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using StickerPriceCalculator.WebAPI.Controllers;
 using StickerPriceCalculator.Interfaces;
 using StickerPriceCalculator.Entity;
+using StickerPriceCalculator.WebAPI.Controllers;
 
 namespace StickerPriceCalculator.Test
 {
@@ -11,7 +11,7 @@ namespace StickerPriceCalculator.Test
         [TestMethod]
         public void TestMethod1()
         {
-            IStickerPriceCalculator iStickerPriceCalculator = new StickPriceCalculator.BLL.StickPriceCalculator();
+            IStickerPriceCalculator iStickerPriceCalculator = new StickerPriceCalculator.BLL.StickerPriceCalculator();
 
             var controller = new StickerPriceCalculatorController(iStickerPriceCalculator);
             decimal startEPS = -1.36m;// for example, RH has EPS=-1.36 in 2013

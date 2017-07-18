@@ -17,17 +17,19 @@ namespace StickerPriceCalculator.WebAPI
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{action}/{id}",
+                routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
 
             //Important: connect GlobalConfiguration.Configuration.DependencyResolver  with container
             UnityConfig.RegisterComponents();
 
-            var jsonFormatter = new JsonMediaTypeFormatter();
+
+            //force to use JSON format to return
+            //var jsonFormatter = new JsonMediaTypeFormatter();
             //optional: set serializer settings here
-            config.Services.Replace(typeof(IContentNegotiator), new JsonContentNegotiator(jsonFormatter));
+            //config.Services.Replace(typeof(IContentNegotiator), new JsonContentNegotiator(jsonFormatter));
+
         }
     }
-
 }
