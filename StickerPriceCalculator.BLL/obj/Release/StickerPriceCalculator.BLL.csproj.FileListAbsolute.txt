@@ -7,3 +7,12 @@ F:\Git\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Release\StickerPric
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Release\StickerPriceCalculator.BLL.csprojResolveAssemblyReference.cache
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Release\StickPriceCalculator.BLL.dll
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Release\StickPriceCalculator.BLL.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Release\StickerPriceCalculator.BLL.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Release\StickerPriceCalculator.BLL.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Release\StickerPriceCalculator.Entity.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Release\StickerPriceCalculator.Interfaces.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Release\StickerPriceCalculator.Entity.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\bin\Release\StickerPriceCalculator.Interfaces.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Release\StickerPriceCalculator.BLL.csprojResolveAssemblyReference.cache
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Release\StickerPriceCalculator.BLL.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.BLL\obj\Release\StickerPriceCalculator.BLL.pdb

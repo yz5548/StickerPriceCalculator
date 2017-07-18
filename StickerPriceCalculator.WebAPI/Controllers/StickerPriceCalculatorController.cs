@@ -20,7 +20,7 @@ namespace StickerPriceCalculator.WebAPI.Controllers
         /// <summary>
         /// constructor function
         /// </summary>
-        /// <param name="stickerPriceCalculator"></param>
+        /// <param name="stickerPriceCalculator"></param>       
         public StickerPriceCalculatorController(IStickerPriceCalculator stickerPriceCalculator)
         {
             _stickerPriceCalculator = stickerPriceCalculator;
@@ -35,6 +35,7 @@ namespace StickerPriceCalculator.WebAPI.Controllers
         /// <param name="IntervalYears">2013,2014,2015,2016 , that's N(4) - 1 = 3 years.</param>
         /// <param name="MinimalAcceptableGrowthRate">that means MinimalAcceptableGrowthRate=15%</param>
         /// <returns></returns>
+        [HttpGet]
         public ResultParameters CalculateStockPrice(decimal StartEarningPerShare, decimal EarningPerShareTTM, int IntervalYears, double MinimalAcceptableGrowthRate = 0.15)
         {
             InputParameters inputParameters = new InputParameters(StartEarningPerShare, EarningPerShareTTM, IntervalYears, MinimalAcceptableGrowthRate);

@@ -490,7 +490,7 @@
             <summary>
             constructor function
             </summary>
-            <param name="stickerPriceCalculator"></param>
+            <param name="stickerPriceCalculator"></param>       
         </member>
         <member name="M:StickerPriceCalculator.WebAPI.Controllers.StickerPriceCalculatorController.CalculateStockPrice(System.Decimal,System.Decimal,System.Int32,System.Double)">
             <summary>
@@ -501,19 +501,6 @@
             <param name="IntervalYears">2013,2014,2015,2016 , that's N(4) - 1 = 3 years.</param>
             <param name="MinimalAcceptableGrowthRate">that means MinimalAcceptableGrowthRate=15%</param>
             <returns></returns>
-        </member>
-        <member name="M:StickerPriceCalculator.WebAPI.Controllers.ValuesController.Get(System.Int32)">
-            <summary>
-            this is Get Description
-            </summary>
-            <param name="id">id description</param>
-            <returns></returns>
-        </member>
-        <member name="M:StickerPriceCalculator.WebAPI.Controllers.ValuesController.Post(System.String)">
-            <summary>
-            this Post description
-            </summary>
-            <param name="value">this is abc</param>
         </member>
     </members>
 </doc>

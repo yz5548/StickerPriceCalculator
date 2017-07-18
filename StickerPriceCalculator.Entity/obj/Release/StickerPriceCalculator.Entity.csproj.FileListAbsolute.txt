@@ -3,3 +3,8 @@ F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Release\StickerP
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Release\StickerPriceCalculator.Entity.csprojResolveAssemblyReference.cache
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Release\StickerPriceCalculator.Entity.dll
 F:\Git\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Release\StickerPriceCalculator.Entity.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Release\StickerPriceCalculator.Entity.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\bin\Release\StickerPriceCalculator.Entity.pdb
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Release\StickerPriceCalculator.Entity.csprojResolveAssemblyReference.cache
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Release\StickerPriceCalculator.Entity.dll
+E:\Github\StickerPriceCalculator\StickerPriceCalculator.Entity\obj\Release\StickerPriceCalculator.Entity.pdb
