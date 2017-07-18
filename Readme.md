@@ -17,6 +17,9 @@ TestAPI:
 //JSON
 http://218.244.141.45:20178/api/StickerPriceCalculator/CalculateStockPrice/?StartEarningPerShare=-1.36&EarningPerShareTTM=2.16&IntervalYears=3
 
+API Signature:
+http://218.244.141.45:20178/Help
+http://218.244.141.45:20178/Swagger
 
 
 Parameter Tutorial:
